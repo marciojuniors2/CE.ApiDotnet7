@@ -39,7 +39,7 @@ Navegue até o diretório do projeto no terminal ou prompt de comando.
 No terminal rode o comando abaixo para rodar as criar as tabelas no banco de dados e rodar as migrations:
 dotnet ef database update
 Instalação
-Clone este repositório: git clone [https://github.com/rufedupo/verzel-test-api](https://github.com/marciojuniors2/CE.ApiDotnet7)
+Clone este repositório: git clone (https://github.com/marciojuniors2/CE.ApiDotnet7)
 Navegue para o diretório do projeto
 
 Executando a Aplicação
