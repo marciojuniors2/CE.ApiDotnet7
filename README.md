@@ -3,15 +3,10 @@
 ## Descrição do Projeto
 A Cars.ApiDotnet7 é uma API desenvolvida para gerenciar informações sobre carros em uma vitrine virtual. Ela fornece endpoints para realizar operações como criar, ler, atualizar e excluir carros do sistema.
 
-## Demonstração em Vídeo
-Confira o vídeo abaixo para visualizar o projeto em funcionamento:
-
-[![Assista ao vídeo](![image](https://github.com/marciojuniors2/CE.ApiDotnet7/assets/81241546/40c7c2f7-0707-4c41-9f69-f1117f2dd53b)
-)]([LINK_DO_VIDEO](https://onedrive.live.com/?authkey=%21AFRtWLW1DfiSO6U&cid=4C95F0AB64BF596D&id=4C95F0AB64BF596D%21197&parId=root&o=OneUp))
+## Vídeo do Projeto em Funcionamento
+[![Assista ao vídeo](LINK_DA_IMAGEM)](https://onedrive.live.com/?authkey=%21AFRtWLW1DfiSO6U&cid=4C95F0AB64BF596D&id=4C95F0AB64BF596D%21197&parId=root&o=OneUp)
 
 ## Tecnologias Utilizadas
-A API foi construída utilizando as seguintes tecnologias:
-
 - .NET 7
 - Entity Framework Core
 - AutoMapper
@@ -74,7 +69,13 @@ dotnet run
 ```
 
 ## Arquitetura e Design
-A arquitetura do projeto segue os princípios do Domain-Driven Design (DDD) e utiliza o .NET 7 como plataforma de desenvolvimento. possuindo uma clara separação de responsabilidades entre as diferentes camadas da aplicação.
+A Cars.ApiDotnet7 foi projetada seguindo uma arquitetura modular e adotando os princípios do Domain-Driven Design (DDD). A aplicação é desenvolvida na plataforma .NET 7, proporcionando uma estrutura flexível e escalável.
 
+A arquitetura é dividida em camadas distintas, cada uma com responsabilidades bem definidas. A camada de Domínio contém as entidades de negócio, as regras de validação e os serviços principais. A camada de Infraestrutura é responsável pela persistência de dados, utilizando o Entity Framework Core para interagir com o banco de dados SQL Server. A camada de Apresentação consiste nos controladores da API, que lidam com as requisições e respostas HTTP.
 
-Gerado com chat Gpt ! espero que ajude..
+Além disso, a API utiliza bibliotecas como AutoMapper para mapeamento de objetos, Fluent Validation para validação de dados, e JWT para autenticação e autorização. Essas tecnologias contribuem para a segurança e eficiência da aplicação.
+
+Com essa arquitetura robusta e tecnologias modernas, a Cars.ApiDotnet7 é capaz de lidar com operações de gerenciamento de carros de forma eficiente e escalável, proporcionando uma experiência de usuário suave e confiável.
+
+## Licença
+Este projeto está licenciado sob a [MIT License](LICENSE).
