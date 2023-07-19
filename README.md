@@ -1,9 +1,7 @@
 # Cars.ApiDotnet7
 
-## Descrição do Projeto
-A Cars.ApiDotnet7 é uma API desenvolvida para gerenciar informações sobre carros em uma vitrine virtual. Ela fornece endpoints para realizar operações como criar, ler, atualizar e excluir carros do sistema.
 
-## Vídeo do Projeto em Funcionamento
+## Vídeo do Projeto 
 [![Assista ao vídeo](LINK_DA_IMAGEM)](https://onedrive.live.com/?authkey=%21AFRtWLW1DfiSO6U&cid=4C95F0AB64BF596D&id=4C95F0AB64BF596D%21197&parId=root&o=OneUp)
 
 ## Tecnologias Utilizadas
