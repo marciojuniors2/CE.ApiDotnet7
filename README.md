@@ -4,7 +4,7 @@
 Esta API é o backend da aplicação que desenvolveu um sistema de vitrine de carros.
 
 ## Vídeo do Projeto em Funcionamento
-Assista ao vídeo [aqui]([(https://1drv.ms/v/s!Am1Zv2Sr8JVMgUVUbVi1tQ34kjul?e=tWcfYP)]).
+[![Watch the video](|LINK DA IMAGEM)]([LINK DO VIDEO](https://1drv.ms/v/s!Am1Zv2Sr8JVMgUVUbVi1tQ34kjul?e=tWcfYP))
 
 ## Tecnologias Utilizadas
 - .NET 7
