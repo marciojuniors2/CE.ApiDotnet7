@@ -1,30 +1,35 @@
 # Cars.ApiDotnet7
 
 ## Descrição do Projeto
-Esta API é o backend da aplicação que desenvolveu um sistema de vitrine de carros.
+A Cars.ApiDotnet7 é uma API desenvolvida para gerenciar informações sobre carros em uma vitrine virtual. Ela fornece endpoints para realizar operações como criar, ler, atualizar e excluir carros do sistema.
 
-## Vídeo do Projeto em Funcionamento
-[![Watch the video](|LINK DA IMAGEM)]([LINK DO VIDEO](https://1drv.ms/v/s!Am1Zv2Sr8JVMgUVUbVi1tQ34kjul?e=tWcfYP))
+## Demonstração em Vídeo
+Confira o vídeo abaixo para visualizar o projeto em funcionamento:
+
+[![Assista ao vídeo](![image](https://github.com/marciojuniors2/CE.ApiDotnet7/assets/81241546/40c7c2f7-0707-4c41-9f69-f1117f2dd53b)
+)]([LINK_DO_VIDEO](https://onedrive.live.com/?authkey=%21AFRtWLW1DfiSO6U&cid=4C95F0AB64BF596D&id=4C95F0AB64BF596D%21197&parId=root&o=OneUp))
 
 ## Tecnologias Utilizadas
+A API foi construída utilizando as seguintes tecnologias:
+
 - .NET 7
-- Entity Framework (EF) Core
-- Auto Mapper
+- Entity Framework Core
+- AutoMapper
 - Fluent Validation
-- Jwt
+- JWT (JSON Web Tokens)
 - SQL Server
 
 ## Pré-requisitos
-Antes de executar o projeto, certifique-se de ter instalado o seguinte:
+Antes de executar o projeto, certifique-se de ter instalado os seguintes componentes:
 
-- .NET 7 SDK: [Download .NET 7](link_para_o_download_dotnet_7)
-- SQL Server: [Download SQL Server](link_para_o_download_sql_server)
+- SDK .NET 7: [Download do .NET 7](link_para_o_download_dotnet_7)
+- SQL Server: [Download do SQL Server](link_para_o_download_sql_server)
 
 ## Configuração do Banco de Dados
-Certifique-se de ter o SQL Server instalado e em execução. Crie um banco de dados vazio no SQL Server para o projeto.
+É necessário ter o SQL Server instalado e em execução. Crie um novo banco de dados vazio no SQL Server para ser utilizado pelo projeto.
 
-### Instruções de Configuração
-No arquivo `appsettings.json` e `appsettings.Development.json`, insira a string de conexão com o banco de dados:
+### Configurações
+No arquivo `appsettings.json` e `appsettings.Development.json`, localize a seção de configuração da conexão com o banco de dados e insira a string de conexão adequada:
 
 ```json
 {
@@ -37,24 +42,26 @@ No arquivo `appsettings.json` e `appsettings.Development.json`, insira a string 
 Substitua `"sua-string-de-conexao-aqui"` pela string de conexão correta para o seu banco de dados SQL Server.
 
 ## Migrations do Entity Framework
-As migrations do Entity Framework permitem criar e atualizar o esquema do banco de dados de acordo com as alterações no modelo de dados.
+As migrações do Entity Framework são utilizadas para criar e atualizar o esquema do banco de dados de acordo com as alterações no modelo de dados.
 
-Navegue até o diretório do projeto no terminal ou prompt de comando. No terminal, execute o seguinte comando para criar as tabelas no banco de dados e rodar as migrations:
+Navegue até o diretório do projeto no terminal ou prompt de comando e execute o seguinte comando para criar as tabelas no banco de dados e aplicar as migrações:
 
 ```bash
 dotnet ef database update
 ```
 
 ## Instalação
-Clone este repositório:
+Siga as etapas abaixo para instalar e configurar o projeto:
+
+1. Clone este repositório:
 ```bash
 git clone https://github.com/marciojuniors2/CE.ApiDotnet7
 ```
 
-Navegue até o diretório do projeto.
+2. Acesse o diretório do projeto.
 
 ## Executando a Aplicação
-Para executar a aplicação, siga os passos abaixo:
+Para executar a aplicação, siga as instruções abaixo:
 
 1. Restaure as dependências do projeto:
 ```bash
@@ -67,4 +74,7 @@ dotnet run
 ```
 
 ## Arquitetura e Design
-O projeto foi desenvolvido seguindo uma base no Domain-Driven Design (DDD) e utilizando o .NET 7 como plataforma de desenvolvimento. A arquitetura segue uma abordagem modular, com uma divisão clara de responsabilidades entre as camadas da aplicação.
+A arquitetura do projeto segue os princípios do Domain-Driven Design (DDD) e utiliza o .NET 7 como plataforma de desenvolvimento. possuindo uma clara separação de responsabilidades entre as diferentes camadas da aplicação.
+
+
+Gerado com chat Gpt ! espero que ajude..
