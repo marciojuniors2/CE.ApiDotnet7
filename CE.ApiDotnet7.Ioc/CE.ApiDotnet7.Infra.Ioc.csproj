@@ -1,0 +1,20 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net7.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="AutoMapper.Extensions.Microsoft.DependencyInjection" Version="12.0.0" />
+    <PackageReference Include="Microsoft.Extensions.DependencyInjection" Version="7.0.0" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\CE.ApiDotnet7.Application\CE.ApiDotnet7.Application.csproj" />
+    <ProjectReference Include="..\CE.ApiDotnet7.Data\CE.ApiDotnet7.Infra.Data.csproj" />
+    <ProjectReference Include="..\CE.APiDotnet7.Domain\CE.ApiDotnet7.Domain.csproj" />
+  </ItemGroup>
+
+</Project>
